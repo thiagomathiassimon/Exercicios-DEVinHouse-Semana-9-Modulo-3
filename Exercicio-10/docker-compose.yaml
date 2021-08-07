@@ -1,0 +1,8 @@
+version: "3.2"
+services: 
+    ubuntu_exercicios:
+        image: nginx
+        ports:
+            - "80:80"
+        volumes:
+          - /mnt/c/Users/Thiago Mathias Simon/Downloads/GitHub/Exercicios-DEVinHouse-Semana-9-Modulo-3/Exercicio-10:/usr/share/nginx/html:rw
